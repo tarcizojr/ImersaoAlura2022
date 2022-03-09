@@ -5,5 +5,7 @@ var notaDoTerceiroBimestre = 4;
 var notaDoQuartoBimestre = 2;
 var notaFinal = (notaDoPrimeiroBimestre + notaDoSegundoBimestre + notaDoTerceiroBimestre + notaDoQuartoBimestre) / 4;
 
+//
+
 console.log(nome)
 console.log(notaFinal.toFixed(1))
