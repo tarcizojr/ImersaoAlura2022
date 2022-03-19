@@ -1,0 +1,129 @@
+
+body{
+    background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background: #ECF4FF;
+    box-shadow: 6px 6px 6px #0E1D2F;
+    border-radius: 20px;
+    margin: 50px;
+    padding: 64px;
+}
+
+.dark .container{
+    background: #333439;
+    color: #ECF4FF;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil{
+    display: flex;
+    
+}
+
+.perfil img{
+    border-radius: 100px;
+    box-shadow: 6px 6px 6px #0E1D2F;
+    width: 200px;
+
+}
+
+.titulos{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+    line-height: 8px;
+    margin-left: 20px;
+}
+
+
+.titulos .links{
+    line-height: 5px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.dark .titulos .links{
+    color: #ffffff;
+}
+.alterar-tema button{    
+    cursor: pointer;
+    padding: 8px 16px;
+
+    background: #ffffff;
+    border: 2px solid #0E1D2F;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+.dark .alterar-tema button{
+    background-color: #000000;
+    border: 2px solid #f5f5f5;
+    color: #ECF4FF;
+
+}
+
+.projetos{
+    background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 30px;
+    padding: 32px;
+}
+
+.projetos-titulo{
+   font-weight: 700;
+   font-size: 36px;
+}
+
+.projetos-itens{
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 50px;
+    width: 800px;
+    margin-bottom: 50px;
+    
+}
+
+.projetos-itens a{
+    text-decoration: none;
+    color: #0E1D2F;
+}
+
+
+.codigos{    
+    display: none;
+}
+
+.codigos.ativo{    
+    display: block;
+}
+
+.projetos-itens .minimizar{
+    margin-left: 20px;
+    cursor: pointer;
+    padding: 5px 5px;
+    
+    background: #ffffff;
+    border: 2px solid #0E1D2F;
+    box-sizing: border-box;
+    border-radius: 100px;
+    
+}
+
+.dark .projetos-itens .minimizar{
+    background-color: #000000;
+    border: 2px solid #f5f5f5;
+    color: #ECF4FF;
+}
